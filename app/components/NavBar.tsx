@@ -44,7 +44,7 @@ const [isOpen, setIsOpen] = useState(false);
             {isOpen &&
 
             <div className='md:hidden'>
-                <div className='className="px-2 pt-2 pb-3 space-y-1 bg-background border-t border-border"'>
+                <div className='className="px-2 pt-2 pb-3 space-y-1 bg-background border-t border-border'>
                     <a onClick={e=>setIsOpen(false)} className='block px-3 py-2 text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#home">Home</a>
                     <a onClick={e=>setIsOpen(false)} className='block px-3 py-2 text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#aboutus">About Us</a>
                     <a onClick={e=>setIsOpen(false)} className='block px-3 py-2 text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#services">Servicios</a>
