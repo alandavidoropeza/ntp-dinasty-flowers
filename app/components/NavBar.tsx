@@ -31,7 +31,6 @@ const [isOpen, setIsOpen] = useState(false);
                     <a className='text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#contactus">Contact Us</a>
                     <a href='#' className='hidden lg:flex text-black bg-gradient-hero py-1 px-4 rounded-md hover:text-white transition-colors duration-300' >Request Quote</a>                    
                 </div>
-            
 
                 {/* Mobil Menu */}
                 <div className='md:hidden'>
@@ -42,7 +41,6 @@ const [isOpen, setIsOpen] = useState(false);
             </div>
 
             {isOpen &&
-
             <div className='md:hidden'>
                 <div className='className="px-2 pt-2 pb-3 space-y-1 bg-background border-t border-border'>
                     <a onClick={e=>setIsOpen(false)} className='block px-3 py-2 text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#home">Home</a>
@@ -52,11 +50,9 @@ const [isOpen, setIsOpen] = useState(false);
                     <a onClick={e=>setIsOpen(false)} className='block px-3 py-2 text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#testimonials">Testimonials</a>
                     <a onClick={e=>setIsOpen(false)} className='block px-3 py-2 text-foreground hover:text-primary transition-colors duration-300 font-medium' href="#contactus">Contact Us</a>
                     <a onClick={e=>setIsOpen(false)} href='#' className='text-center block px-3 py-2 text-black bg-gradient-hero rounded-md hover:text-white transition-colors duration-300' >Request Quote</a>
-
                 </div>
             </div>
             }
-
 
         </div>
     </nav>
