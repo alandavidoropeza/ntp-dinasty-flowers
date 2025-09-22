@@ -35,6 +35,7 @@
     --gold: 45 86% 62%;
     --accent-rose: 330 45% 85%;
     --muted-foreground: 156 6% 46%;
+    --card: 0 0% 100%;
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(156 24% 47%) 0%, hsl(45 86% 62%) 100%);
@@ -46,6 +47,11 @@
 
     /* spacing */
     --relaxed: 1.625;
+
+    /* shadow */
+    --shadow-elegant: 0 10px 30px -10px hsl(156 24% 47% / 0.1);
+    --shadow-gold: 0 8px 25px -8px hsl(45 86% 62% / 0.15);
+    --shadow-soft: 0 4px 15px -5px hsl(156 8% 15% / 0.08);
   }
 }
 
@@ -64,6 +70,7 @@
     --color-gold: hsl(var(--gold));
     --color-accent-rose: hsl(var(--accent-rose));
     --color-muted-foreground: hsl(var(--muted-foreground));
+    --color-card: hsl(var(--card));
     
     /* font */
     --font-heading: var(--font-heading);
@@ -75,4 +82,15 @@
     /* spacing */
     --spacing-relaxed: var(--relaxed);
 
+    /* shadow */
+    --shadow-elegant: var(--shadow-elegant);
+    --shadow-gold: var(--shadow-gold);
+    --shadow-soft: var(--shadow-soft);
+
+}
+
+@layer components{
+  .hover-lift {
+    @apply transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-elegant;
+  }
 }
