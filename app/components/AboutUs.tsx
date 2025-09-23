@@ -81,6 +81,37 @@ const AboutUs = () => {
           </div>          
         </div>
 
+        {/* Mision y Vision */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
+          <Card className="border-0 shadow-soft bg-card/80 backdrop-blur-sm hover:shadow-elegant transition-all duration-300">
+            <CardContent className="p-8">
+              <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                <Heart className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="text-2xl font-heading font-semibold text-foreground mb-4">
+                Mision
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Creating unique and memorable experiences through exceptional floral arrangements, combining creativity, elegance, and personalized attention to make our clients' dreams come true for every special event.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="border-0 shadow-soft bg-card/80 backdrop-blur-sm hover:shadow-elegant transition-all duration-300">
+            <CardContent className="p-8">
+              <div className="w-12 h-12 bg-gold/10 rounded-xl flex items-center justify-center mb-4">
+                <Award className="w-6 h-6 text-gold" />
+              </div>
+              <h3 className="text-2xl font-heading font-semibold text-foreground mb-4">
+                Vision
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                To be recognized as the leading company in floral decoration and special events, setting new standards of excellence, innovation, and customer satisfaction in every project we undertake.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
       </div>
     </section>
   );
