@@ -54,7 +54,7 @@ const AboutUs = () => {
             </div>
             <div className="mt-8">
               <button className="bg-gradient-hero text-white font-semibold px-8 py-4 rounded-xl shadow-elegant hover:shadow-gold transition-all duration-300 transform hover:-translate-y-1">
-                Conoce Nuestro Equipo
+                Meet our Team
               </button>
             </div>
           </div>
