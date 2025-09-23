@@ -8,7 +8,7 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-nature overflow-hidden" >
 
         <div className="absolute inset-0 z-0">
-            <Image src={heroImage} alt="flower hero" className="w-full h-full object-cover opacity-30" />
+            <Image src={heroImage} alt="flower hero" className="w-full h-full object-cover opacity-70" />
             <div className="absolute inset-0 bg-gradient-soft opacity-50"></div>
         </div>
 
