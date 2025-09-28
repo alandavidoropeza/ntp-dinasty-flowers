@@ -30,7 +30,7 @@
     /* Colors */
     --background: 55 58% 96%;
     --foreground: 156 8% 15%;
-    --primary: 359, 50%, 76%;
+    --primary: 159 37% 66%;
     --border: 156 12% 90%;
     --gold: 45 86% 62%;
     --accent-rose: 330 45% 85%;
@@ -38,7 +38,7 @@
     --card: 0 0% 100%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(359, 50%, 76%) 0%, hsl(76, 19%, 44%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(159, 37%, 66%) 0%, hsl(76, 19%, 44%) 100%);
     --gradient-nature: linear-gradient(180deg, hsl(156 30% 95%) 0%, hsl(0 0% 100%) 100%);
     --gradient-soft: linear-gradient(135deg, hsl(156 20% 98%) 0%, hsl(330 25% 96%) 100%);
 
