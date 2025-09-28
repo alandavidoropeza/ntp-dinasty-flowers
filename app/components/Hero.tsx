@@ -8,6 +8,7 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-nature overflow-hidden" >
 
         <div className="absolute inset-0 z-0">
+            {/* opacity 30 for background opacity */}
             <Image src={heroImage} alt="flower hero" className="w-full h-full object-cover opacity-30" />
             <div className="absolute inset-0 bg-gradient-soft opacity-50"></div>
         </div>
