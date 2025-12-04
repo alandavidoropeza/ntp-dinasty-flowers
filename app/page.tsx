@@ -5,6 +5,7 @@ import Services from "./components/Services";
 export default function Home() {
   return (
     <>
+    {/* Main-Page */}
       <Hero />
       <AboutUs />
       <Services />
