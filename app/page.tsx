@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
     {/* Main-Page */}
+    {/* NTP Dinasty */}
       <Hero />
       <AboutUs />
       <Services />
